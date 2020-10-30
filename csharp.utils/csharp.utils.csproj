@@ -50,6 +50,8 @@
     <Compile Include="BubbleSort.cs" />
 	<Compile Include="CSV.cs" />
 	<Compile Include="HelloWorld.cs" />
+	<Compile Include="WriteFile.cs" />
+	
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
