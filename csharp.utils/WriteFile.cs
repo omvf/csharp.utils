@@ -9,8 +9,7 @@ namespace csharp.utils
 {
     public class WriteFile
     {
-        public static void WriteFile(string content)
-        {
+        public static void WriteFile(string content){
             File.WriteAllLines(content);
         }
     }
