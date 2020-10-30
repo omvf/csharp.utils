@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace csharp.utils
 {
-    public class ReadFile
+    public class WriteFile
     {
-        public static void ReadFile(string content)
-        {
+        public static void WriteFile(string content){
             File.WriteAllLines(content);
         }
     }
